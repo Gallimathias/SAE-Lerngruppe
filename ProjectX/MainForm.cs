@@ -13,16 +13,9 @@ namespace ProjectX
 {
     public partial class MainForm : Form
     {
-        Game game;
-
         public MainForm()
         {
             InitializeComponent();
-            game = new Game();
-           
-            game.BackColor = Color.AliceBlue;
-            game.Dock = DockStyle.Fill;
-            components.Add(game);
         }
     }
 }
